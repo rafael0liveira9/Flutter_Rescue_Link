@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5612969280",
+    "project_id": "healt-puc-project",
+    "storage_bucket": "healt-puc-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5612969280:android:bc99028c110f0ca6502ea5",
+        "android_client_info": {
+          "package_name": "com.rescuelink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwDcOMXXLEeBKqbH3mYYo40KCZEtsixc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
