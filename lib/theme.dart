@@ -16,7 +16,6 @@ const Color oneSituation = Color.fromARGB(255, 205, 218, 64);
 const Color twoSituation = Color.fromARGB(255, 46, 174, 0);
 const Color threSituation = Color.fromARGB(255, 255, 122, 122);
 
-// Crie um tema personalizado
 final ThemeData customTheme = ThemeData(
   primaryColor: primaryColor,
   textTheme: const TextTheme(
