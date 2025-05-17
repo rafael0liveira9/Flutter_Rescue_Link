@@ -10,11 +10,12 @@ class DB {
     }
 
     database = await openDatabase(
-      join(await getDatabasesPath(), 'rescue_link_v3.db'),
+      join(await getDatabasesPath(), 'rescue_link_v5.db'),
       version: 3,
       onCreate: (db, version) async {
         await db.execute(_user);
         await db.execute(_service);
+        await _insertTestUser(db);
       },
       onUpgrade: (db, oldVersion, newVersion) async {
         if (oldVersion < 2) {
@@ -27,6 +28,18 @@ class DB {
     );
 
     return database!;
+  }
+
+  Future<void> _insertTestUser(Database db) async {
+    var x = await db.insert('user', {
+      'name': 'Test User',
+      'email': 'test@example.com',
+      'password': 'test123',
+      'type': 1,
+      'situation': 1,
+      'jobStateType': 'Ambulância',
+      'createdAt': DateTime.now().toIso8601String(),
+    });
   }
 
   String get _user => '''
