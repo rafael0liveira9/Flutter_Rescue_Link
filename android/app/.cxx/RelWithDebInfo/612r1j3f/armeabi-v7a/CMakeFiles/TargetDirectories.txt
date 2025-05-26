@@ -1,0 +1,2 @@
+C:/Users/rafael/Desktop/Rafael/POS/Flutter/Aulas/puc/flutter_health/android/app/.cxx/RelWithDebInfo/612r1j3f/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/rafael/Desktop/Rafael/POS/Flutter/Aulas/puc/flutter_health/android/app/.cxx/RelWithDebInfo/612r1j3f/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -46,5 +46,3 @@ app.*.map.json
 
 # Android App Store key
 keu.properties
-app\upload-keystore.jks
-android\app\upload-keystore.jks
