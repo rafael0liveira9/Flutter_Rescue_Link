@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/mistergrow/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/mistergrow/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/mistergrow/Works/Rafael/Flutter_Rescue_Link/android/app/.cxx/RelWithDebInfo/2o5av6x6/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/mistergrow/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/mistergrow/Works/Rafael/Flutter_Rescue_Link/android/app/.cxx/RelWithDebInfo/2o5av6x6/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
